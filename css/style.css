@@ -1,0 +1,14 @@
+.highlighted-card {
+    border-radius: 26px;
+    background: #3F87F5;
+    box-shadow: 0px 42px 34px 0px rgba(63, 135, 245, 0.25);
+    height: 480px;
+}
+
+.position-left {
+    left: 87%;
+}
+
+.bg-red {
+    background-color: #FF4E4E;
+}
