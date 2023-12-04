@@ -42,13 +42,15 @@
       </div>
     </nav>
     <!-- imgage slider or carouesel -->
-    <section>
+    <section class="margin-bottom">
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
             aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
@@ -60,7 +62,7 @@
               <h2>next event</h2>
               <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat
                 duis enim velit </p>
-              <button class="btn btn-primary mb-4">Book Now</button>
+              <button class="btn-white mb-4">Book Now</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -68,6 +70,13 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -93,7 +102,7 @@
   </header>
   <main>
     <!-- wedding section -->
-    <section class="container my-5">
+    <section class="container margin-bottom">
       <div class="d-flex align-items-center">
         <div>
           <img src="images/wedding.png" alt="">
@@ -105,10 +114,11 @@
           <button class="btn btn-primary">Explore our album</button>
         </div>
       </div>
+
     </section>
     <!-- package section -->
-    <section class="container my-5">
-      <h2 class="text-center my-5">Our Package</h2>
+    <section class="container margin-bottom">
+      <h2 class="text-center margin-bottom">Our Package</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-lg-3">
           <div class="card border-0 h-100">
@@ -157,7 +167,7 @@
           <div class="card border-0 h-100 highlighted-card">
             <span class="position-absolute top-0 position-left translate-middle badge rounded-pill bg-red">Hot <span
                 class="visually-hidden">unread messages</span></span>
-            <div class="card-body">
+            <div class="card-body text-white">
               <h4>$300</h4>
               <h5 class="card-title">Business fair</h5>
               <p class="card-text">For most businesses event
@@ -168,7 +178,7 @@
                 <p><img src="icons/check-circle-1.svg" width="20" height="20" alt=""> event support</p>
                 <p><img src="icons/check-circle-1.svg" width="20" height="20" alt=""> Decoration design</p>
                 <p><img src="icons/check-circle-1.svg" width="20" height="20" alt=""> Per day bill</p>
-                <button class="w-100 btn btn-primary rounded-pill">Choose plan</button>
+                <button class="w-100 btn btn-light rounded-pill">Choose plan</button>
               </div>
             </div>
             <div class="d-flex align-items-center justify-content-center">
@@ -200,8 +210,8 @@
       </div>
     </section>
     <!-- clients section  -->
-    <section class="container mb-5">
-      <h2 class="text-center my-5">Happy Clients says</h2>
+    <section class="container margin-bottom">
+      <h2 class="text-center margin-bottom">Happy Clients says</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col text-center">
           <div class="card pt-3 border-0 shadow-lg">
@@ -245,7 +255,8 @@
       </div>
     </section>
     <!-- Frequently asked questions section -->
-    <section class="container my-5">
+    <section class="container margin-bottom">
+      <h2 class="text-center margin-bottom">Frequently Asked Questions</h2>
       <div class="row ms-3">
         <div class="col-lg-6">
           <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -321,8 +332,19 @@
       </div>
     </section>
   </main>
-  <footer>
-
+  <footer class="bg-black w-100">
+    <div class="row">
+      <div class="col-6 p-4 d-flex align-items-center justify-content-center">
+        <small class="text-white">© 2020 bike. All rights reserved</small>
+      </div>
+      <div class="col-6 p-4 d-flex align-items-center justify-content-center">
+        <div>
+          <p class="text-white">Get the App</p>
+          <img class="mt-3" src="images/google-play.png" alt="" width="135" height="40"><br>
+          <img class="mt-3" src="images/App Store Badge.svg" alt="">
+        </div>
+      </div>
+    </div>
   </footer>
 
   <!-- bootstrap js script -->
